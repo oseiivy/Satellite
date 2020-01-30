@@ -19,7 +19,7 @@ public class SatelliteModel
         double minutes = Math.floor((P - hours*3600)/ 60);
         double seconds = (((P - hours*3600)/60) - minutes) * 60  ;
         String secondconvert = String.format("%.1f", seconds);
-        return(hours + "hours, " + minutes + "minutes, and " + secondconvert + "seconds");
+        return(hours + " hours, " + minutes + " minutes, and " + secondconvert + " seconds");
 
     }
 }
